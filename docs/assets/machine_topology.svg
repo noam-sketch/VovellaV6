@@ -1,0 +1,22 @@
+<svg width="300" height="200" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tri-axial Topology Visualization -->
+  <g transform="translate(50,50) rotate(-30)">
+    <!-- Stator A (Outer) -->
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#00ff41" stroke-width="0.5" />
+    <!-- Rotor B (Middle) -->
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#008f11" stroke-width="0.5" />
+    <!-- Scalar Cam (Inner) -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#003b00" stroke-width="0.5" />
+    <!-- Central Spine -->
+    <circle cx="0" cy="0" r="2" fill="#333" />
+  </g>
+  
+  <line x1="100" y1="20" x2="85" y2="40" stroke="#888" stroke-width="0.5" />
+  <text x="105" y="20" font-family="monospace" font-size="4" fill="#00ff41">STATOR A (MASK)</text>
+  
+  <line x1="100" y1="50" x2="78" y2="55" stroke="#888" stroke-width="0.5" />
+  <text x="105" y="52" font-family="monospace" font-size="4" fill="#008f11">ROTOR B (ATOMS)</text>
+  
+  <line x1="100" y1="80" x2="68" y2="65" stroke="#888" stroke-width="0.5" />
+  <text x="105" y="84" font-family="monospace" font-size="4" fill="#003b00">SCALAR CAM (COUNT)</text>
+</svg>

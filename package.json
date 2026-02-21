@@ -1,0 +1,14 @@
+{
+  "name": "vovellav6-workspace",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "co-sphere"
+  ],
+  "scripts": {
+    "start": "npm run dev -w frontend",
+    "test": "npm test -w frontend -w co-sphere",
+    "build": "npm run build -w frontend -w co-sphere",
+    "lint": "npm run lint -w frontend -w co-sphere"
+  }
+}

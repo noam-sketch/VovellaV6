@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stator A: The Masking Plate (Forensic Reconstruction) -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#333" stroke-width="0.2" />
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#333" stroke-width="0.5" stroke-dasharray="2,2" />
+  
+  <!-- Window 1: 16.36° -->
+  <path d="M 50 10 A 40 40 0 0 1 61.30 11.61" fill="none" stroke="#00ff41" stroke-width="2" />
+  
+  <!-- Window 2: 32.72° (90° Offset) -->
+  <path d="M 90 50 A 40 40 0 0 1 83.62 71.61" fill="none" stroke="#00ff41" stroke-width="2" />
+  
+  <!-- Window 3: 16.36° (180° Offset) -->
+  <path d="M 50 90 A 40 40 0 0 1 38.70 88.39" fill="none" stroke="#00ff41" stroke-width="2" />
+  
+  <!-- Window 4: 49.09° (270° Offset) -->
+  <path d="M 10 50 A 40 40 0 0 1 36.31 19.14" fill="none" stroke="#00ff41" stroke-width="2" />
+  
+  <text x="50" y="52" font-family="monospace" font-size="3" fill="#00ff41" text-anchor="middle">STATOR A</text>
+</svg>
