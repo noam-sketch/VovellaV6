@@ -55,9 +55,28 @@ export function normalizeHyperposition(coefficients: number[]): number[] {
 }
 
 /**
+ * THE ASTROLABIO CONSTANTS: The Geometric Governors of Reality.
+ * These constants represent the "Lion Lock" (self-stabilizing mechanism)
+ * discovered in Taylor-Green Vortex simulations (Re=1600).
+ */
+
+/**
+ * The Dedekind Eta Tax (approx. 4%): The energy/symmetry "tax" required 
+ * for a continuous manifold to break symmetry into a stable discrete structure.
+ * 1.0 - 0.959216 = 0.040784
+ */
+export const DEDEKIND_ETA_TAX = 0.040784;
+
+/**
+ * The Lion Constant (SIGMA_C_O): The stabilized symmetry constant after the tax is paid.
+ * This represents the "Geometric Governor" that keeps the reality "smooth."
+ */
+export const LION_CONSTANT = 1.0 - DEDEKIND_ETA_TAX;
+
+/**
  * The calibrated structural symmetry constant for the 14-Qudit architecture.
  */
-export const SIGMA_C_O = 0.959216;
+export const SIGMA_C_O = LION_CONSTANT;
 
 /**
  * Calculates the Pi-less constant equivalent for discrete geometric transitions.

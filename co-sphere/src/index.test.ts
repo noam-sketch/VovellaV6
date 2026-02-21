@@ -4,9 +4,21 @@ import {
   calculatePiLessCircumference,
   approximateBoundary,
   normalizeHyperposition,
+  DEDEKIND_ETA_TAX,
+  LION_CONSTANT,
 } from './index.js';
 
 describe('C-O Sphere Math Library', () => {
+  describe('Astrolabio Constants (Lion Lock)', () => {
+    it('verifies the 4% Dedekind Eta Tax', () => {
+      expect(DEDEKIND_ETA_TAX).toBeCloseTo(0.040784, 6);
+    });
+
+    it('verifies the Lion Constant as the stabilized symmetry', () => {
+      expect(LION_CONSTANT).toBe(1.0 - DEDEKIND_ETA_TAX);
+    });
+  });
+
   describe('calculateDiscreteChordLength', () => {
     it('calculates chord length correctly', () => {
       const r = 2;
